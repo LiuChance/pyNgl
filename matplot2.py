@@ -12,6 +12,5 @@ plt.rcParams['axes.unicode_minus']=False
 
 df = pd.read_csv('xwdata.csv')
 df['资料时间']=pd.to_datetime(df['资料时间'])
-df['站名']=pd.
 t = np.array(df['资料时间'])
 
